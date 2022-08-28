@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <nav class="Navbar">
+            <h1>Portfolio Website</h1>
+            <div class="Navigationmenu">
+                <a href="#Aboutme">About me</a>
+                <a href="#Skills">Skills</a>
+                <a href="#Projects">Projects</a>
+                <a href="#Letsconnect">Letsconnect</a>
+            </div>
+        </nav>
+    <section class="Herosection">
+        <img src="/images/arunavprofile.jpg" alt="no image" class="Profileimage">
+        <div class="Herosectiondetails">
+            <h1>Arunav Grover</h1>
+            <h3><u>Full stack web developer</u></h3>
+        </div>
+    </section>
+    <section class="Aboutme" id="Aboutme"></section>
+    <h1>What I Do</h1>
+    <p>My name is Arunav Grover I'm a 3rd year B.Tech (Information technology) student. I am currently working on PYTHON and have a lot of        interest in data science.I have created various
+        projects using python also know some basics of html,css,bootstrap and
+continuing to strengthen my skill more.I have been working on DSA in java and i am well versed with it.
+        </p>
+        </section>
+        <section class="Skillsandprojects">
+            <div class="Skills" id="Skills">
+                <h1 class="Cardheading">Skills</h1>
+                <img src="/images/html.svg" alt="no image" title="Html">
+                <img src="/images/css.svg" alt="no image" title="Css">
+                <img src="/images/javascript.svg" alt="no image" title="Javascript">
+                <img src="/images/mongodb.svg" alt="no image" title="Mongodb">
+                <img src="/images/node.svg" alt="no image" title="Nodejs">
+                <img src="/images/firebase.svg" alt="no image" title="Firebase">
+                <img src="/images/react.svg" alt="no image" title="React">
+                <img src="/images/redux.svg" alt="no image" title="Redux">
+            </div>
+            <div class="Projetcs" id="Projects">
+                <h1 class="Cardheading">Projects</h1>
+                <div class="Projectcontainer">
+                    <img src="/images/python.svg" alt="">
+                    <div class="Projectdescription">
+                        <h4>Harry Potter cloak of invisibility </h4>
+                        <p>This project is all about removing the green screen from a
+                            running animation and inserting different background using
+                            PYTHON &COMPUTER VISION.
+                            </p>
+                    </div>
+                </div>
+                <div class="Projectcontainer">
+                    <img src="/images/python.svg" alt="">
+                    <div class="Projectdescription">
+                        <h4>Real Estate Price Prediction </h4>
+                        <p>PYTHON based project and using basic machine learning
+                            libraries (Numpy , panda ,matplotlib,tensorflow)
+                            </p>
+                    </div>
+                </div>
+                <div class="Projectcontainer">
+                    <img src="/images/python.svg" alt="">
+                    <div class="Projectdescription">
+                        <h4>Harry Potter cloak of invisibility </h4>
+                        <p>This project is all about removing the green screen from a
+                            running animation and inserting different background using
+                            PYTHON &COMPUTER VISION.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Contactform" id="Contactform">
+            <h2>let's Connect</h2>
+            <div class="Formgroup">
+                <label for="name">Enter Full name</label>
+                <input type="text" name="myText" id="name" placeholder="fullName">
+            </div>
+            <div class="Formgroup">
+                <label for="email">Email</label>
+                <input type="email" name="myEmail" id="email" placeholder="Email">
+            </div>
+            <div class="Formgroup">
+                <label for="message">Message</label>
+                <textarea name="W3review" id="message" cols="50" rows="4" placeholder="Send some message!"></textarea>
+            </div>
+            <button class="Submitbutton" onclick = {submit()}>Connect</button>
+        </section>
+    </main>
+    </body>
+</html>
